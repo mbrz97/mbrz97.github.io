@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mo Barzegar - Machine Learning Researcher</title>
+    <!-- Google Fonts and Font Awesome for Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #1e2a38;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+        }
+
+        .contact-info a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .contact-info a:hover {
+            color: #e91e63;
+        }
+
+        /* Navigation Section */
+        nav {
+            background-color: #fff;
+            padding: 1rem 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #e91e63;
+        }
+
+        /* Main Content Area */
+        .container {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #1e2a38;
+            text-align: center;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        /* Flexbox for layout */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .grid-1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #1e2a38;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            background-color: #1e2a38;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 25px;
+            margin: 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #1e2a38;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin-top: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Mo Barzegar</h1>
+        <p>Machine Learning Researcher</p>
+        <div class="contact-info">
+            <a href="mailto:barzegar102@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="tel:+989171180390"><i class="fas fa-phone"></i> Phone</a>
+            <a href="https://www.linkedin.com/in/mo-barzegar"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/mobarzegar"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://orcid.org/0000-0000-0000-0000"><i class="fab fa-orcid"></i> ORCID</a>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#research-publications">Publications</a></li>
+            <li><a href="#workshops">Workshops & Courses</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                I am Mo Barzegar, a passionate machine learning researcher currently pursuing my M.Sc. in Artificial Intelligence and Robotics at Persian Gulf University. My research focuses on applying AI to healthcare, particularly in image processing and vision-language models. I've contributed to multiple research publications and projects aimed at improving AI techniques for medical applications.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>M.Sc. Artificial Intelligence and Robotics</h3>
+                    <p>Persian Gulf University, Bushehr, Iran (2022 - Present)</p>
+                    <p>GPA: 17.86/20 (Ranked 1st)</p>
+                    <p>Thesis: Image Captioning and Report Generation for Chest X-Rays</p>
+                    <p>Supervisors: Dr. Habib Rostami, Dr. Ahmad Keshavarz</p>
+                </div>
+                <div class="card">
+                    <h3>B.Sc. Civil Engineering</h3>
+                    <p>Persian Gulf University, Bushehr, Iran (2016 - 2022)</p>
+                    <p>GPA: 14.64/20</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card">
+                <ul>
+                    <li>Python</li>
+                    <li>TensforFlow</li>
+                    <li>Keras</li>
+                    <li>MATLAB</li>
+                    <li>PyTorch</li>
+                    <li>OpenCV</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="grid-1">
+                <div class="card">
+                    <h3>Systems Engineer - Electrolian Engineering Group</h3>
+                    <p>Bushehr, Iran (2018 - 2021)</p>
+                    <p>Designed an online shop website, automated workflows, and led technical teams for CCTV system installations in over 500 residential projects.</p>
+                </div>
+                <div class="card">
+                    <h3>Research Assistant - Persian Gulf University</h3>
+                    <p>(2022 - Present)</p>
+                    <p>Conducted research on breast cancer lesion classification and vision-language models for medical report generation. Published papers in top journals and conferences.</p>
+                </div>
+                <div class="card">
+                    <h3>Reviewer - IBCAIDS2024</h3>
+                    <p>(Dec 2023 - Apr 2024)</p>
+                    <p>Reviewed four academic papers for the 1st International Biennial Conference of Artificial Intelligence and Data Science 2024 (IBCAIDS2024).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research & Publications -->
+        <section id="research-publications">
+            <h2>Research & Publications</h2>
+            <div class="grid-1">
+                <div class="card">
+                    <h3>Multi-Modal Classification of Breast Cancer Lesions</h3>
+                    <p>Computers in Biology and Medicine (December 2024)</p>
+                    <p>Developed a novel method for classifying breast cancer lesions in mammography images.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workshops & Courses Section -->
+        <section id="workshops">
+            <h2>Workshops & Courses</h2>
+            <div class="grid-1">
+                <div class="card">
+                    <p><strong>Deep Learning Models’ Explainability and Interpretability</strong> - IBCAIDS2024 [Certificate]</p>
+                    <p><strong>Challenges of Code Generation using Neural Networks</strong> - IBCAIDS2024 [Certificate]</p>
+                    <p><strong>Introduction to Python Programming</strong> - University of Pennsylvania (Coursera) [Certificate]</p>
+                    <p><strong>Supervised Machine Learning</strong> - DeepLearning.AI Stanford (Coursera) [Certificate]</p>
+                    <p><strong>The Complete Android 12 & Kotlin Development Masterclass</strong> - Udemy [Certificate]</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Mo Barzegar</p>
+    </footer>
+
+</body>
+</html>
