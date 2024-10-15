@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammad Barzegar - Machine Learning Researcher</title>
+    <title>Mo Barzegar - Machine Learning Researcher</title>
     <!-- Include Google Fonts and Font Awesome for icons -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -35,26 +35,26 @@
             font-weight: 300;
         }
 
-        section {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
         .contact-info {
             text-align: center;
-            margin: 20px 0;
+            margin-top: 20px;
         }
 
         .contact-info a {
-            margin: 0 10px;
+            margin: 0 15px;
             font-size: 1.2rem;
-            color: #2b2d42;
+            color: white;
             text-decoration: none;
         }
 
         .contact-info a i {
             margin-right: 8px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
         .card {
@@ -114,9 +114,6 @@
             margin-left: 20px;
         }
 
-        /* Content Section Styling */
-	
-
 .content {
     margin: 30px 0;
     text-align: center;
@@ -142,9 +139,6 @@ section.content {
     max-width: 100%;
 }
 
-
-
-
         .content a:hover {
             background-color: #505770;
         }
@@ -153,8 +147,15 @@ section.content {
 <body>
 
     <header>
-        <h1>Mohammad Barzegar</h1>
+        <h1>Mo Barzegar</h1>
         <p>Machine Learning Researcher</p>
+        <div class="contact-info">
+            <a href="mailto:barzegar102@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+            <a href="tel:+989171180390"><i class="fas fa-phone"></i>Phone: +98 917 118 0390</a>
+            <a href="https://www.linkedin.com/in/mo-barzegar"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            <a href="https://github.com/mobarzegar"><i class="fab fa-github"></i>GitHub</a>
+            <a href="https://orcid.org/0000-0000-0000-0000"><i class="fab fa-orcid"></i>ORCID</a>
+        </div>
     </header>
 
     <section class="content">
@@ -162,6 +163,7 @@ section.content {
         <a href="#education">Education</a>
         <a href="#research-publications">Research & Publications</a>
         <a href="#research-experience">Research Experience</a>
+        <a href="#teaching-experience">Teaching Experience</a>
         <a href="#skills">Skills</a>
         <a href="#languages">Languages</a>
         <a href="#work-experience">Work Experience</a>
@@ -172,7 +174,7 @@ section.content {
         <div class="card">
             <h2>About Me</h2>
             <p>
-                I'm Mohammad Barzegar, a passionate machine learning researcher currently pursuing my M.Sc. in Artificial Intelligence and Robotics at Persian Gulf University, Bushehr, Iran. My research focuses on applying AI to healthcare, particularly in image processing and vision-language models. I’ve published research on breast cancer lesion classification and contributed to various AI projects.
+                I'm Mo Barzegar, a passionate machine learning researcher currently pursuing my M.Sc. in Artificial Intelligence and Robotics at Persian Gulf University, Bushehr, Iran. My research focuses on applying AI to healthcare, particularly in image processing and vision-language models. I’ve published research on breast cancer lesion classification and contributed to various AI projects.
             </p>
         </div>
     </section>
@@ -185,10 +187,11 @@ section.content {
                     <br>GPA: 17.86 / 20 (Ranked 1st)
                     <br>Thesis: Image Captioning and Report Generation for Chest X-Rays
                     <br>Supervisor: Dr. Habib Rostami | Advisor: Dr. Ahmad Keshavarz
+                    <br>Coursework: Machine Learning, Deep Learning, Pattern Recognition, Image Processing
                 </li>
                 <li><strong>B.Sc. Civil Engineering</strong>, Persian Gulf University, Bushehr, Iran (2016 - 2022)
                     <br>GPA: 14.64 / 20
-                    <br>Relevant Coursework: MATLAB, Statistics and Probabilities, Numerical Methods, Mechanics
+                    <br>Relevant Coursework: MATLAB, Statistics, Numerical Methods, Mechanics
                 </li>
             </ul>
         </div>
@@ -199,7 +202,7 @@ section.content {
             <h2>Research & Publications</h2>
             <ul>
                 <li><strong>Multi-Modal Classification of Breast Cancer Lesions</strong>, Computers in Biology and Medicine, December 2024.
-                    <br>A novel method for breast cancer lesion classification in DM/CESM images.
+                    <br>A novel method for breast cancer lesion classification in DM/CESM images. [Link]
                 </li>
             </ul>
         </div>
@@ -211,15 +214,26 @@ section.content {
             <ul>
                 <li><strong>Research Assistant</strong>, Persian Gulf University (Sep 2022 - Present)
                     <ul class="contribution-list">
-                        <li>Co-authored a research paper on breast cancer lesion classification, improving over existing methods.</li>
-                        <li>Conducted thesis research on medical vision-language models for Chest X-ray report generation.</li>
-                        <li>Developed models and preprocessed data for predictive maintenance projects.</li>
+                        <li>Co-authored a research paper on breast cancer lesion classification.</li>
+                        <li>Conducted thesis research on medical vision-language models.</li>
+                        <li>Worked on predictive maintenance models for time series data.</li>
                     </ul>
                 </li>
                 <li><strong>Reviewer</strong>, IBCAIDS2024, Persian Gulf University (Dec 2023 - Apr 2024)
                     <ul class="contribution-list">
-                        <li>Evaluated 4 papers for their scientific contribution and provided feedback.</li>
+                        <li>Evaluated four research papers and provided detailed feedback.</li>
                     </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="teaching-experience">
+        <div class="card">
+            <h2>Teaching Experience</h2>
+            <ul>
+                <li><strong>Teaching Assistant in Machine Learning</strong>, Persian Gulf University (Sep 2023 - Mar 2024)
+                    <br>Held tutorials and assessments for master's students in machine learning concepts.
                 </li>
             </ul>
         </div>
@@ -256,12 +270,27 @@ section.content {
             <ul>
                 <li><strong>Systems Engineer</strong>, Electrolian Engineering Group (2018 - 2021), Bushehr, Iran
                     <ul class="contribution-list">
-                        <li>Designed the online shop website and automated sales workflows, reducing tasks by 80%.</li>
-                        <li>Managed CCTV system networks for 500+ residential projects in Bushehr.</li>
+                        <li>Designed an online shop website, expanding the company’s nationwide outreach.</li>
+                        <li>Created Python-based tools to automate workflows, reducing manual tasks by 80%.</li>
+                        <li>Led a team of 4 technicians for the deployment of CCTV systems in over 500 residential projects.</li>
                     </ul>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section id="workshops-courses
+    <section id="workshops-courses">
+        <div class="card">
+            <h2>Workshops & Courses</h2>
+            <ul>
+                <li><strong>Deep Learning Models’ Explainability and Interpretability</strong>, IBCAIDS2024</li>
+                <li><strong>Challenges of Code Generation using Neural Networks</strong>, IBCAIDS2024</li>
+                <li><strong>Introduction to Python Programming</strong>, Coursera (University of Pennsylvania)</li>
+                <li><strong>Supervised Machine Learning: Regression and Classification</strong>, Coursera (DeepLearning.AI, Stanford)</li>
+                <li><strong>The Complete Android 12 & Kotlin Development Masterclass</strong>, Udemy</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
