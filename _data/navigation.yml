@@ -11,13 +11,10 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Research and Teaching Experience"
-    url: /research_teaching/    
-
-  - title: "Work Experience"
+  - title: "Experiences"
     url: /work/
         
-  - title: "Skills and Certifications"
+  - title: "Skills"
     url: /skills/
     
   - title: "Contact"
