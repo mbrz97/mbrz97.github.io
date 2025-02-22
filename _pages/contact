@@ -1,0 +1,79 @@
+---
+title: ""
+permalink: /contact/
+author_profile: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .contact-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .contact-item i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #0073b1;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:barzegar102@gmail.com">barzegar102@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-skype"></i>
+            <span>live:.cid.37f9ab4f83bf7a3f</span>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/mohammad-barzegar/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-graduation-cap"></i>
+            <a href="https://scholar.google.com/citations?user=ri1U4AUAAAAJ&hl=en" target="_blank">Google Scholar</a>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-id-badge"></i>
+            <a href="https://orcid.org/0009-0002-4227-3878" target="_blank">ORCID</a>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/mbrz97" target="_blank">GitHub</a>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-researchgate"></i>
+            <a href="https://www.researchgate.net/profile/Mohammad-Barzegar-10" target="_blank">ResearchGate</a>
+        </div>
+    </div>
+</body>
+</html>
