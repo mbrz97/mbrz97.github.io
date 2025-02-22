@@ -10,7 +10,7 @@
   @include container;
   @include clearfix;
   margin-top: 0;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   padding-left: 2em;
   padding-right: 2em;
   font-family: $sans-serif;
@@ -60,6 +60,7 @@
   @include full();
   @include clearfix();
   margin-top: 1em;
+  margin-bottom: 5em;
   padding-top: 1em;
 
   ul {
