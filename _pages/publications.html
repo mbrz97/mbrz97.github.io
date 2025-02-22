@@ -1,36 +1,97 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications & Research</title>
+    <style>
+        html, body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 50px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .details {
+            margin-left: 20px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Publications & Ongoing Research</h1>
+        
+        <div class="publication">
+            <h2><a href="https://doi.org/10.1016/j.compbiomed.2024.109266">Multi-Modal Classification of Breast Cancer Lesions in Digital Mammography and Contrast Enhanced Spectral Mammography Images</a></h2>
+            <p><strong>Computers in Biology and Medicine, December 2024</strong></p>
+            <ul>
+                <li>Developed a novel multimodal approach for breast cancer lesion classification in DM/CESM images that outperforms existing methods and uncovers new insights.</li>
+                <li>Contributed to writing the original draft, coding, visualization, data curation, and validation.</li>
+            </ul>
+        </div>
+        
+        <div class="publication">
+            <h2>A Dataset of Smartphone-Captured Throat Images for Bacterial and Viral Pharyngitis Classification</h2>
+            <p><strong>Submitted to Scientific Data</strong></p>
+            <ul>
+                <li>Created a dataset by capturing throat images using smartphones for classifying Pharyngitis.</li>
+                <li>Collaborated with physicians to verify results, conducted technical validation, and wrote the manuscript.</li>
+            </ul>
+        </div>
+        
+        <div class="publication">
+            <h2>Chest X-ray Report Generation by Combining VLMs, Classifier Prompts, and Shortcut Bias Mitigation</h2>
+            <p><strong>Ongoing (Publication Based on Master’s Thesis)</strong></p>
+            <ul>
+                <li>Enhanced chest X-ray captioning by integrating VLMs, classifier prompts, and shortcut bias mitigation techniques to generate more accurate and clinically relevant diagnostic outputs.</li>
+            </ul>
+        </div>
+        
+        <div class="publication">
+            <h2><a href="https://github.com/mbrz97/EV-Charging/">Data Synthesis and Multi-Agent Simulation of Electric Vehicle Charging in Residential Properties</a></h2>
+            <p><strong>Ongoing</strong></p>
+            <ul>
+                <li>This work proposes a data synthesis method and uses reinforcement learning to predict user behavior as a mitigation method for the shortage of data in this field.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
