@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Mohammad Barzegar"
+title                    : "Mo Barzegar"
 title_separator          : "-"
-name                     : &name "Mohammad Barzegar"
+name                     : &name "Mo Barzegar"
 description              : &description "MSc Student in AI"
 url                      : https://mbrz97.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Mohammad Barzegar"
+  name             : "Mo Barzegar"
   pronouns         : # example: "she/her"  
-  bio              : "MSc Student in AI, Researching Medical Vision-Language"
+  bio              : "MSc in AI, Medical AI Researcher"
   location         : "Bushehr, Iran"
   employer         : "Persian Gulf University"
   uri              : # URL
